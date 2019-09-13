@@ -146,3 +146,9 @@ footer {
 }
 .row #hero #lake_name {
 }
+#activity {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    background-color: cyan;
+}
