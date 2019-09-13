@@ -1,154 +1,108 @@
 @charset "utf-8";
 /* Background color for navbar and dropdown menus */
 .navbar-custom, .navbar-custom .dropdown-menu {
-    background-color: #4896aa;
+	background-color: #4896aa;
 }
 .navbar-brand {
-    background-image: url(../images/svg/halfdome.svg);
-    background-repeat: no-repeat;
-    background-position: 9% center;
-    padding-left: 50px;
+	background-image: url(../images/svg/halfdome.svg);
+	background-repeat: no-repeat;
+	background-position: 9% center;
+	padding-left: 50px;
 }
-
 /* Text color for navbar and dropdown menus */
-.navbar-custom .navbar-brand, .navbar-custom .navbar-text,
-.navbar-custom .navbar-nav .nav-link,
-.navbar-custom .dropdown-item {
-    color: #ecf0f1;
+.navbar-custom .navbar-brand, .navbar-custom .navbar-text, .navbar-custom .navbar-nav .nav-link, .navbar-custom .dropdown-item {
+	color: #ecf0f1;
 }
 /* Background and text colors for current page link and links on hover and focus */
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link,
-.navbar-custom .nav-item:focus .nav-link,
-.navbar-custom .dropdown-item:hover, 
-.navbar-custom .dropdown-item:focus {
-    background-color: #346f7e;
-    color: #fff;
+.navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link, .navbar-custom .nav-item:focus .nav-link, .navbar-custom .dropdown-item:hover, .navbar-custom .dropdown-item:focus {
+	background-color: #346f7e;
+	color: #fff;
 }
 /* Border and text colors for menu icon on small screens */
 .custom-toggler.navbar-toggler {
-    border-color: #ecf0f1;
-    color: #fff;
+	border-color: #ecf0f1;
+	color: #fff;
 }
 /* Hamburger icon - use same rgb values as previous rule for stroke */
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,240,241, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,240,241, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 #hero {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    position: relative;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	position: relative;
 }
 #lake_name {
-    position: absolute;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    font-size: 1
-.
-.;
-    font-size: 2rem;
-    color: rgba(251,238,239,1.00);
-    font-weight: bold;
-    text-shadow: 3px 2px rgba(140,93,94,0.82);
-    min-height: 0px;
+	position: absolute;
+	font-size: 1 . .;
+	font-size: 2rem;
+	color: rgba(251, 238, 239, 1.00);
+	font-weight: bold;
+	text-shadow: 3px 2px rgba(140, 93, 94, 0.82);
+	min-height: 0px;
 }
 #highlights {
-    text-align: center;
-}
-.jus {
-}
-.d-xl-block {
+	text-align: center;
 }
 #lake_name {
-    top: 10px;
-    left: 10px;
-
-}
-.row #hero .img-fluid {
+	top: 10px;
+	left: 10px;
 }
 #highlights img[src$="icon.svg"] {
-    width: 50px;
-    margin: 10px auto;
-    display: block;
+	width: 50px;
+	margin: 10px auto;
+	display: block;
 }
 #highlights h2 {
-    color: rgba(72,150,170,1.00);
+	color: rgba(72, 150, 170, 1.00);
 }
 .container-fluid #feature {
-    background-color: rgba(49,111,127,1.00);
-    background-image: -webkit-linear-gradient(270deg,rgba(49,111,127,1.00) 0%,rgba(70,151,171,1.00) 100%);
-    background-image: -moz-linear-gradient(270deg,rgba(49,111,127,1.00) 0%,rgba(70,151,171,1.00) 100%);
-    background-image: -o-linear-gradient(270deg,rgba(49,111,127,1.00) 0%,rgba(70,151,171,1.00) 100%);
-    background-image: linear-gradient(180deg,rgba(49,111,127,1.00) 0%,rgba(70,151,171,1.00) 100%);
-    color: rgba(243,233,233,1.00);
+	background-color: rgba(49, 111, 127, 1.00);
+	background-image: -webkit-linear-gradient(270deg, rgba(49, 111, 127, 1.00) 0%, rgba(70, 151, 171, 1.00) 100%);
+	background-image: -moz-linear-gradient(270deg, rgba(49, 111, 127, 1.00) 0%, rgba(70, 151, 171, 1.00) 100%);
+	background-image: -o-linear-gradient(270deg, rgba(49, 111, 127, 1.00) 0%, rgba(70, 151, 171, 1.00) 100%);
+	background-image: linear-gradient(180deg, rgba(49, 111, 127, 1.00) 0%, rgba(70, 151, 171, 1.00) 100%);
+	color: rgba(243, 233, 233, 1.00);
 }
 #feature h2 {
-    text-align: center;
-    font-size: 2rem;
+	text-align: center;
+	font-size: 2rem;
 }
 #feature p {
-    font-size: 1.2rem;
+	font-size: 1.2rem;
 }
 #articles {
-    margin: 20px 0;
+	margin: 20px 0;
 }
 h3 {
-    color: #fff;
-    text-align: right;
-    text-shadow: 3px 1px rgba(96,94,94,0.87);
+	color: #fff;
+	text-align: right;
+	text-shadow: 3px 1px rgba(96, 94, 94, 0.87);
 }
 .card-img-overlay {
-    right: 2%;
-    top: -17px;
+	right: 2%;
+	top: -17px;
 }
 footer {
-    text-align: center;
-    background-color: rgba(0,0,0,1.00);
-    color: rgba(237,230,230,1.00);
-    font-size: 1.2rem;
-}
-.row #hero #lake_name {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 1.00);
+	color: rgba(237, 230, 230, 1.00);
+	font-size: 1.2rem;
 }
 #activity {
-    text-align: center;
-    color: #fff;
-    padding: 10px 0;
-    background-color: cyan;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+	background-color: cyan;
+	text-shadow: 2px 2px rgba(22, 20, 20, 1.00);
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#feature h2 {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-weight: bold;
+	text-shadow: 4px 1px rgba(19, 19, 18, 1.00);
 }
